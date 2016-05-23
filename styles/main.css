@@ -1,0 +1,229 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+/* line 3, ../../app/styles/main.scss */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background: #f5f1e8 url("../images/bg-gradient-sand.png") repeat-x;
+}
+
+/* line 9, ../../app/styles/main.scss */
+
+.element-invisible {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 22, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #brand-wrapper {
+  margin: 0 auto;
+}
+
+/* line 24, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #brand-wrapper #header {
+  position: absolute;
+  top: -3px;
+  left: 12px;
+  z-index: 7;
+}
+
+/* line 29, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #brand-wrapper #header #branding {
+  margin: 0 auto;
+}
+
+/* line 31, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #brand-wrapper #header #branding #logo {
+  padding: 0;
+}
+
+/* line 33, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #brand-wrapper #header #branding #logo img {
+  width: 120px;
+  height: 120px;
+  vertical-align: bottom;
+}
+
+/* line 42, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #nav-wrapper {
+  margin: 0;
+  height: 45px;
+}
+
+/* line 46, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #nav-wrapper #menu-bar ul {
+  list-style-type: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+/* line 51, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #nav-wrapper #menu-bar ul li a {
+  float: left;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  color: black;
+}
+
+/* line 58, ../../app/styles/main.scss */
+
+#header-container #header-wrapper #nav-wrapper #menu-bar ul li a:hover,
+#header-container #header-wrapper #nav-wrapper #menu-bar ul li a:active,
+#header-container #header-wrapper #nav-wrapper #menu-bar ul li a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+/* line 72, ../../app/styles/main.scss */
+
+#headline {
+  width: 100%;
+  background: url("../images/headline.jpg") no-repeat 20%;
+}
+
+/* line 75, ../../app/styles/main.scss */
+
+#headline .container {
+  height: 450px;
+  position: relative;
+}
+
+/* line 79, ../../app/styles/main.scss */
+
+#headline .container .row h2 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 black;
+}
+
+/* line 95, ../../app/styles/main.scss */
+
+#sob-basics h2 {
+  font-size: 2.2em;
+}
+
+/* line 98, ../../app/styles/main.scss */
+
+#sob-basics p {
+  font-size: 1.3em;
+}
+
+/* line 104, ../../app/styles/main.scss */
+
+.key i {
+  font-size: 4em;
+}
+
+/* line 113, ../../app/styles/main.scss */
+
+#quote i {
+  font-size: 4em;
+  line-height: 60px;
+}
+
+/* line 117, ../../app/styles/main.scss */
+
+#quote .text {
+  text-weight: bolder;
+}
+
+/* line 129, ../../app/styles/main.scss */
+
+footer #org-menu ul {
+  list-style-type: none;
+}
+
+/* line 137, ../../app/styles/main.scss */
+
+footer #social-menu ul {
+  list-style-type: none;
+}
+
+/* line 147, ../../app/styles/main.scss */
+
+.organization-card .title {
+  padding-top: 2em;
+}
+
+/* line 150, ../../app/styles/main.scss */
+
+.organization-card .meta {
+  padding-top: 4em;
+}
+
+/* line 153, ../../app/styles/main.scss */
+
+.organization-card .summary {
+  padding-top: 2em;
+}
+
+/* line 161, ../../app/styles/main.scss */
+
+.barchart {
+  background-color: #a3dbe3;
+  height: 1em;
+  padding: 0em;
+  margin: 0.625em 0;
+  width: 100%;
+}
+
+/* line 167, ../../app/styles/main.scss */
+
+.barchart .meter {
+  background: #2daebf;
+  height: 100%;
+  display: block;
+}
+
+/* line 174, ../../app/styles/main.scss */
+
+table.chart {
+  width: 100%;
+  border-width: 0;
+  margin: 40px 0;
+}
+
+/* line 179, ../../app/styles/main.scss */
+
+td.chart {
+  font-size: 14px;
+  margin-bottom: 50px;
+  padding: 0 0 20px 0;
+}
+
+/* line 184, ../../app/styles/main.scss */
+
+p.percentage {
+  font-size: 30px !important;
+  color: #6f6f6f;
+  font-weight: 300;
+  margin-bottom: 17px;
+}
+
+/* line 190, ../../app/styles/main.scss */
+
+table tr.even,
+table tr.alt,
+table tr:nth-of-type(even) {
+  background: #FFF;
+}
